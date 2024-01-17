@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="103.501" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.1" time="42.274">
+<system-out><![CDATA[
+Given user is on register page..............................................passed
+When user entered "sanjay" ,"Manjarekar","sanjay@gmail.com","sanjay@123","sanjay@gmail.com","15","Jun", "2000" and "Male".passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.2" time="32.688">
+<system-out><![CDATA[
+Given user is on register page..............................................passed
+When user entered "Ajay" ,"Ahire","ajay@gmail.com","ajay@123","ajay@gmail.com","20","May", "2002" and "Female".passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.3" time="27.042">
+<system-out><![CDATA[
+Given user is on register page..............................................passed
+When user entered "Ganesh" ,"shinde","ganesh@gmail.com","ganga@123","ganesh@gmail.com","25","Apr", "2001" and "custom".passed
+]]></system-out>
+</testcase>
+</testsuite>

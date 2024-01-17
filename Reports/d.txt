@@ -1,0 +1,12 @@
+
+Scenario Outline: Test register page functionality                                                                          # AllFeatureFiles/FaceBook.feature:9
+  Given user is on register page                                                                                            # stepsDefinition.FacebookPageResgister.user_is_on_register_page()
+  When user entered "sanjay" ,"Manjarekar","sanjay@gmail.com","sanjay@123","sanjay@gmail.com","15","Jun", "2000" and "Male" # stepsDefinition.FacebookPageResgister.user_entered_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+Scenario Outline: Test register page functionality                                                               # AllFeatureFiles/FaceBook.feature:10
+  Given user is on register page                                                                                 # stepsDefinition.FacebookPageResgister.user_is_on_register_page()
+  When user entered "Ajay" ,"Ahire","ajay@gmail.com","ajay@123","ajay@gmail.com","20","May", "2002" and "Female" # stepsDefinition.FacebookPageResgister.user_entered_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+Scenario Outline: Test register page functionality                                                                       # AllFeatureFiles/FaceBook.feature:11
+  Given user is on register page                                                                                         # stepsDefinition.FacebookPageResgister.user_is_on_register_page()
+  When user entered "Ganesh" ,"shinde","ganesh@gmail.com","ganga@123","ganesh@gmail.com","25","Apr", "2001" and "custom" # stepsDefinition.FacebookPageResgister.user_entered_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
